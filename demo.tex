@@ -87,7 +87,14 @@
     \item $\frac{dJ}{dq} = \delta P_1 \frac{dP_1}{dq} + \beta P_2 \frac{dP_2}{dq} $
     \item $ \rightarrow \frac{dP_1}{dq} = -K_p $
     \item $ \rightarrow \frac{dP_1}{dq} = - \dot{} - \dot{ K_p} $
-    \item $  P_1 $
+    \item $  P_1 = K_p e + K_d \dot{e}$
+    \item $ P_2 = \dot{K_p} e + K_p \dot{e} + \dot{K_d} \dot{e} + K_d \ddot{e} $
+    \item $J = \frac{\delta}{2} P_1^2 + \frac{\beta}{2} P_2^2 $
+    \item $ \frac{dJ}{dK} = \frac{dJ}{dq} \frac{dq}{du} \frac{du}{dK} $
+    \item $ \frac{du}{dK_p} = Me $
+    \item $\frac{du}{dK_d} = M\dot{e} $
+    \item $ \frac{dJ}{K_p} = (- \delta P_1 K_p - \beta P_2 \dot{K_p} ) (1) (Me) $
+    \item $ \frac{dJ}{K_d} = (- \delta P_1 K_p - \beta P_2 \dot{K_p})(1)(M\dot{e}) $
 \end{itemize}
 
 \end{frame}
